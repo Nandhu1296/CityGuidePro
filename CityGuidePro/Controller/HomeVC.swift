@@ -47,7 +47,7 @@ class HomeVC: UIViewController, CLLocationManagerDelegate, AVSpeechSynthesizerDe
     var window : [Int : [Int]] = [:]
     let group = DispatchGroup()
     
-    //Flags
+    //Flags -- these are not needed, by nand user
     var newGroupNoticed = false
     var getBeaconsFlag = false
     var getThePath = false
