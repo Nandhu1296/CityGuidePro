@@ -120,6 +120,7 @@ class HomeVC: UIViewController, CLLocationManagerDelegate, AVSpeechSynthesizerDe
         self.naratorMute.tintColor = .black
         self.recButton.tintColor = .black
         self.stopBtn.tintColor = .black
+        //
     }
     
     override var canBecomeFirstResponder: Bool{
